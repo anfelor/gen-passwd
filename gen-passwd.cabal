@@ -4,6 +4,7 @@
 
 name:           gen-passwd
 version:        1.0.0.0
+synopsis:       Create wordlist-based passwords easily
 category:       Web
 homepage:       https://github.com/anfelor/gen-passwd#readme
 author:         Anton Felix Lorenzen
