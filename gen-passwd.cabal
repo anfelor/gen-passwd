@@ -3,13 +3,14 @@
 -- see: https://github.com/sol/hpack
 
 name:           gen-passwd
-version:        1.0.0.0
+version:        1.1.0.0
 synopsis:       Create wordlist-based passwords easily
-category:       Web
+description:    See README at <https://github.com/anfelor/gen-passwd#readme>
+category:       CLI
 homepage:       https://github.com/anfelor/gen-passwd#readme
+bug-reports:    https://github.com/anfelor/gen-passwd/issues
 author:         Anton Felix Lorenzen
-maintainer:     anfelor@posteo.de
-copyright:      BSD3
+maintainer:     Anton Felix Lorenzen <anfelor@posteo.de>
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -17,6 +18,10 @@ cabal-version:  >= 1.10
 
 extra-source-files:
     README.md
+
+source-repository head
+  type: git
+  location: https://github.com/anfelor/gen-passwd
 
 executable gen-passwd
   main-is: Main.hs

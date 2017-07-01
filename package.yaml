@@ -1,13 +1,12 @@
 name:                gen-passwd
-version:             1.0.0.0
+version:             1.1.0.0
 synopsis:            Create wordlist-based passwords easily
-#description:
-homepage:            https://github.com/anfelor/gen-passwd#readme
+description:         See README at <https://github.com/anfelor/gen-passwd#readme>
+github:              anfelor/gen-passwd
 license:             BSD3
 author:              Anton Felix Lorenzen
-maintainer:          anfelor@posteo.de
-copyright:           BSD3
-category:            Web
+maintainer:          Anton Felix Lorenzen <anfelor@posteo.de>
+category:            CLI
 extra-source-files:
 - README.md
 
