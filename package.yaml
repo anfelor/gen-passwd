@@ -1,0 +1,24 @@
+name:                gen-passwd
+version:             1.0.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/anfelor/gen-passwd#readme
+license:             BSD3
+author:              Anton Felix Lorenzen
+maintainer:          anfelor@posteo.de
+copyright:           BSD3
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - vector
+  - random
+  - bytestring
+  - optparse-applicative
+
+executables:
+  gen-passwd:
+    source-dirs:      src
+    main:             Main.hs
