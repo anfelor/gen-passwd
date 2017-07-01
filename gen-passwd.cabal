@@ -27,4 +27,6 @@ executable gen-passwd
     , random
     , bytestring
     , optparse-applicative
+  other-modules:
+      Wordlists
   default-language: Haskell2010
